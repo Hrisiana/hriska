@@ -1,0 +1,55 @@
+body {
+    background:    #2B2B2B  no-repeat;
+    background-image: webkit-gradient(radial, 50% 0, 150, 50% 0, 300, from(#444), to(#111));
+}
+
+
+.container {
+    width: 1000px;
+    margin: auto;
+    color: #FFF;
+    font-size: 25px;
+
+}
+
+    .container #content {
+        border: dashed 2px rgb(109, 104, 104);
+        padding: 10px;
+    }
+
+#viewContent {
+    padding-left: 20px;
+}
+
+    #viewContent select {
+        color: #292929 ;
+        font-size: 28px;
+    }
+    #viewContent button {
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+    .fa:hover{
+        color:gray;
+        transition: .4s;
+
+    }
+
+    #viewContent h3 {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    #viewContent .textAlignCenter {
+        text-align: center;
+    }
+
+    #viewContent #message table {
+        width: 100%;
+    }
+    td img{
+        width: 30%;
+    }
+    td {
+        width:50%;
+    }
